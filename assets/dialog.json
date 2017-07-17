@@ -5,10 +5,10 @@
             ["Nice to meet you!"]
         ],
         "responses": [{
-            "content": "Me too！",
+            "content": "Me too!",
             "nextLeiResp": ["0003"]
         }, {
-            "content": "I doubt so……",
+            "content": "I doubt so...",
             "nextLeiResp": ["0001"]
         }, {
             "content": "Really？",
@@ -18,7 +18,7 @@
     }, {
         "id": "0001",
         "details": [
-            ["……", "okay.."]
+            ["...", "okay.."]
         ],
         "nextLeiResp": ["0003"]
     }, {
@@ -45,7 +45,7 @@
     }, {
         "id": "0004",
         "details": [
-            ["erm……", "This is a philosophical question……", "Before I figure out this question, I think, just call me Lei！"]
+            ["erm..", "This is a philosophical question...", "Before I figure out this question, I think, just call me Lei!"]
         ],
         "nextLeiResp": ["0005"]
     }, {
@@ -66,7 +66,7 @@
             ["Sure.", "You can't type anyway.. haha!!"]
         ],
         "responses": [{
-            "content": "……"
+            "content": "..."
         }, {
             "content": "LOL!!"
         }]
@@ -82,13 +82,13 @@
     }, {
         "id": "0008",
         "details": [
-            ["Of course！", "My favourite book is \"The Art of War\"！ I like strategic books."]
+            ["Of course！", "My favourite book is \"The Art of War\"! I like strategic books."]
         ],
         "responses": [{
             "content": "Great！I love strategic books too!~",
             "nextLeiResp": ["0010"]
         }, {
-            "content": "I see……",
+            "content": "I see..",
             "nextLeiResp": ["0010"]
         }]
     }, {
@@ -97,7 +97,7 @@
             ["Hahaha, make a guess？"]
         ],
         "responses": [{
-            "content": "You are so cute，must be a girl right? so…you must have a BF！",
+            "content": "You are so cute，must be a girl right? so…you must have a BF!",
             "nextLeiResp": ["0015"]
         }, {
             "content": "Don't tell me if you have！",
@@ -150,7 +150,7 @@
         "responses": [{
             "content": "You are so funny.. XD ^^"
         }, {
-            "content": "Not funny at all……"
+            "content": "Not funny at all..."
         }]
     }, {
         "id": "0017",
@@ -173,8 +173,8 @@
         "id": "0019",
         "details": [
             [
-                "Well……It's hard to say",
-                "Maybe.. A bit shy？Haha.. I do have many ideas and like to inovate!"
+                "Well.. It's hard to say",
+                "Maybe.. A bit shy? Haha.. I do have many ideas and like to inovate!"
             ]
         ],
         "nextUser": ["1000"]
@@ -201,7 +201,7 @@
             ["Erm, I am a Software Engineer.", "Work for Works Applications @Singapore"]
         ],
         "responses": [{
-            "content": "Erm~ Works Applications？",
+            "content": "Erm~ Works Applications?",
             "nextLeiResp": ["0024"]
         }, {
             "content": "Wanna change your job？",
@@ -215,7 +215,7 @@
         "responses": [{
             "content": "Great~"
         }, {
-            "content": "We are working on something great，wanna join us？",
+            "content": "We are working on something great，wanna join us?",
             "nextLeiResp": ["0033"]
         }, {
             "content": "oh."
@@ -231,12 +231,12 @@
         "id": "0027",
         "details": [
             [
-                "The site's idea comes from chatbot",
+                "The site's idea comes from chatbot.",
                 "Nowadays, people get to know each other through instant messagers right?"
             ]
         ],
         "responses": [{
-            "content": "Great！",
+            "content": "Great!",
             "nextLeiResp": ["0034"]
         }, {
             "content": "Yeah~",
@@ -296,7 +296,7 @@
         "id": "1000",
         "brief": "Hobbies",
         "details": [
-            "What do you do in our free time？",
+            "What do you do in our free time?",
             "Tell me more about yourself Lei?"
         ],
         "nextLeiResp": ["0007"]
@@ -305,22 +305,22 @@
         "brief": "Reading",
         "details": [
             "Do you like reading？",
-            "What's your favourite book？"
+            "What's your favourite book?"
         ],
         "nextLeiResp": ["0008"]
     }, {
         "id": "1003",
         "brief": "Relationship",
         "details": [
-            "Can I ask about your relationship status？Hehe……",
-            "Lei, do you have a GF？"
+            "Can I ask about your relationship status？Hehe...",
+            "Lei, do you have a GF?"
         ],
         "nextLeiResp": ["0009"]
     }, {
         "id": "1004",
-        "brief": "Charactor",
+        "brief": "Character",
         "details": [
-            "What kind of person do you think you are？",
+            "What kind of person do you think you are?",
             "Just curious，what's your charactor like~"
         ],
         "nextLeiResp": ["0019"]
@@ -328,21 +328,21 @@
         "id": "1005",
         "brief": "Porfolio",
         "details": [
-            "Can I have a look of your portfolios？"
+            "Can I have a look of your portfolios?"
         ],
         "nextLeiResp": ["0022"]
     }, {
         "id": "1008",
         "brief": "Job",
         "details": [
-            "You are so talented! What do you do for a living？"
+            "You are so talented! What do you do for a living?"
         ],
         "nextLeiResp": ["0023"]
     }, {
         "id": "1006",
         "brief": "About",
         "details": [
-            "This page is interesting！",
+            "This page is interesting!",
             "Your site is great~"
         ],
         "nextLeiResp": ["0026", "0027"]
