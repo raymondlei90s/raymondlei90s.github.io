@@ -1,0 +1,350 @@
+{
+    "fromLei": [{
+        "id": "0000",
+        "details": [
+            ["Nice to meet you!"]
+        ],
+        "responses": [{
+            "content": "Me too！",
+            "nextLeiResp": ["0003"]
+        }, {
+            "content": "I doubt so……",
+            "nextLeiResp": ["0001"]
+        }, {
+            "content": "Really？",
+            "nextLeiResp": ["0002"]
+        }],
+        "nextUser": ["1000"]
+    }, {
+        "id": "0001",
+        "details": [
+            ["……", "okay.."]
+        ],
+        "nextLeiResp": ["0003"]
+    }, {
+        "id": "0002",
+        "details": [
+            ["Just saying.."]
+        ],
+        "nextLeiResp": ["0003"]
+    }, {
+        "id": "0003",
+        "details": [
+            ["What do you want to know?"]
+        ],
+        "responses": [{
+            "content": "Who are you？",
+            "nextLeiResp": ["0004"]
+        }, {
+            "content": "Where are you from?",
+            "nextLeiResp": ["0005"]
+        }, {
+            "content": "Can I ask anything?",
+            "nextLeiResp": ["0006"]
+        }]
+    }, {
+        "id": "0004",
+        "details": [
+            ["erm……", "This is a philosophical question……", "Before I figure out this question, I think, just call me Lei！"]
+        ],
+        "nextLeiResp": ["0005"]
+    }, {
+        "id": "0005",
+        "details": [
+            ["I'm from the \"fine city\" - Singapore!"]
+        ],
+        "responses": [{
+            "content": "What's your profession？",
+            "nextLeiResp": ["0023"]
+        }, {
+            "content": "Interesting~",
+            "nextLeiResp": ["0026"]
+        }]
+    }, {
+        "id": "0006",
+        "details": [
+            ["Sure.", "You can't type anyway.. haha!!"]
+        ],
+        "responses": [{
+            "content": "……"
+        }, {
+            "content": "LOL!!"
+        }]
+    }, {
+        "id": "0007",
+        "details": [
+            [
+                "Nothing much……",
+                "I enjoy reading, jogging, gaming, watching funny videos and spending time with family and friends.",
+                "It seems like I have many Hobbies but experts in none~"
+            ]
+        ]
+    }, {
+        "id": "0008",
+        "details": [
+            ["Of course！", "My favourite book is \"The Art of War\"！ I like strategic books."]
+        ],
+        "responses": [{
+            "content": "Great！I love strategic books too!~",
+            "nextLeiResp": ["0010"]
+        }, {
+            "content": "I see……",
+            "nextLeiResp": ["0010"]
+        }]
+    }, {
+        "id": "0009",
+        "details": [
+            ["Hahaha, make a guess？"]
+        ],
+        "responses": [{
+            "content": "You are so cute，must be a girl right? so…you must have a BF！",
+            "nextLeiResp": ["0015"]
+        }, {
+            "content": "Don't tell me if you have！",
+            "nextLeiResp": ["0018"]
+        }, {
+            "content": "Haha, I don't believe you got one!",
+            "nextLeiResp": ["0017"]
+        }]
+    }, {
+        "id": "0010",
+        "details": [
+            ["Can I share some book recommendations with you?"]
+        ],
+        "responses": [{
+            "content": "Great！It must be great!~",
+            "nextLeiResp": ["0011"]
+        }, {
+            "content": "Nah, It's ok...",
+            "nextLeiResp": ["0012"]
+        }]
+    }, {
+        "id": "0011",
+        "details": [
+            ["I just finished reading <a href='https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X/ref=sr_1_1?s=books&ie=UTF8&qid=1500280306&sr=1-1&keywords=power+of+habit'>\"The Power of Habit\"</a>，hope you like it too~"]
+        ]
+    }, {
+        "id": "0012",
+        "details": [
+            ["oh."],
+            ["Okay..."],
+            ["~"]
+        ]
+    }, {
+        "id": "0015",
+        "details": [
+            ["Yeah，you are right！", "This is my BF~", "<img src='img/Lei.jpg'>"]
+        ],
+        "responses": [{
+            "content": "...",
+            "nextLeiResp": ["0016"]
+        }]
+    }, {
+        "id": "0016",
+        "details": [
+            [
+                "Haha, just kidding，",
+                "This is my photo~"
+            ]
+        ],
+        "responses": [{
+            "content": "You are so funny.. XD ^^"
+        }, {
+            "content": "Not funny at all……"
+        }]
+    }, {
+        "id": "0017",
+        "details": [
+            ["Erm...", "I will take that as a compliment..."]
+        ],
+        "nextLeiResp": ["0018"]
+    }, {
+        "id": "0018",
+        "details": [
+            ["Shh……", "<img src='img/xuhui.jpg'>"]
+        ],
+        "responses": [{
+            "content": "So pretty!~~",
+            "nextLeiResp": ["0020"]
+        }, {
+            "content": "God bless you! goodbye! :)"
+        }]
+    }, {
+        "id": "0019",
+        "details": [
+            [
+                "Well……It's hard to say",
+                "Maybe.. A bit shy？Haha.. I do have many ideas and like to inovate!"
+            ]
+        ],
+        "nextUser": ["1000"]
+    }, {
+        "id": "0020",
+        "details": [
+            ["Yeah!~ The best!~"]
+        ]
+    }, {
+        "id": "0022",
+        "details": [
+            [
+                "<img src='img/bunny.png'>",
+                "<img src='img/dragon-3d.png'>",
+                "<img src='img/yumao-Lei.png'>",
+                "These are some recent projects~",
+                "I like to get my hands dirty and build cool stuffs!",
+                "Hope you like it~"
+            ]
+        ]
+    }, {
+        "id": "0023",
+        "details": [
+            ["Erm, I am a Software Engineer.", "Work for Works Applications @Singapore"]
+        ],
+        "responses": [{
+            "content": "Erm~ Works Applications？",
+            "nextLeiResp": ["0024"]
+        }, {
+            "content": "Wanna change your job？",
+            "nextLeiResp": ["0033"]
+        }]
+    }, {
+        "id": "0024",
+        "details": [
+            ["Yeah", "Works Applications's R&D team"]
+        ],
+        "responses": [{
+            "content": "Great~"
+        }, {
+            "content": "We are working on something great，wanna join us？",
+            "nextLeiResp": ["0033"]
+        }, {
+            "content": "oh."
+        }]
+    }, {
+        "id": "0026",
+        "details": [
+            ["Thanks you like it~"],
+            ["XD"],
+            ["hehehehe~"]
+        ]
+    }, {
+        "id": "0027",
+        "details": [
+            [
+                "The site's idea comes from chatbot",
+                "Nowadays, people get to know each other through instant messagers right?"
+            ]
+        ],
+        "responses": [{
+            "content": "Great！",
+            "nextLeiResp": ["0034"]
+        }, {
+            "content": "Yeah~",
+            "nextLeiResp": ["0034"]
+        }, {
+            "content": "...",
+            "nextLeiResp": ["0034"]
+        }]
+    }, {
+        "id": "0033",
+        "details": [
+            [
+                "Currently there are no plans yet, but I am open to great opportunities!",
+                "You can connect with me on <a href='https://www.linkedin.com/in/raymond-lei/'>LinkedIn</a>",
+                "Not limited to Software Engineering positions~",
+                "Wish to explore more roles like Product Managers etc.~"
+            ]
+        ],
+        "responses": [{
+            "content": "haha sure~ I will hire you when I run my own startup!",
+            "nextLeiResp": ["0026"]
+        }, {
+            "content": "Cool! Let me take a look~"
+        }]
+    }, {
+        "id": "0034",
+        "details": [
+            [
+                "The site is not completed yet..",
+                "But most importantly..",
+                "To be present on this online space."
+            ]
+        ],
+        "responses": [{
+            "content": "……",
+            "nextLeiResp": ["0035"]
+        }]
+    }, {
+        "id": "0035",
+        "details": [
+            ["Oh ya，this is open sourced", "I also write <a href='http://www.leiyang.me/blog/'>blogs</a>"]
+        ],
+        "responses": [{
+            "content": "Cool! Can I have the link?",
+            "nextLeiResp": ["0036"]
+        }]
+    }, {
+        "id": "0036",
+        "details": [
+            ["Open sourced on GitHub", "<a href='https://github.com/raymondlei90s/raymondlei90s.github.io'>https://github.com/raymondlei90s/raymondlei90s.github.io</a>"]
+        ]
+    }],
+
+
+
+    "fromUser": [{
+        "id": "1000",
+        "brief": "Hobbies",
+        "details": [
+            "What do you do in our free time？",
+            "Tell me more about yourself Lei?"
+        ],
+        "nextLeiResp": ["0007"]
+    }, {
+        "id": "1002",
+        "brief": "Reading",
+        "details": [
+            "Do you like reading？",
+            "What's your favourite book？"
+        ],
+        "nextLeiResp": ["0008"]
+    }, {
+        "id": "1003",
+        "brief": "Relationship",
+        "details": [
+            "Can I ask about your relationship status？Hehe……",
+            "Lei, do you have a GF？"
+        ],
+        "nextLeiResp": ["0009"]
+    }, {
+        "id": "1004",
+        "brief": "Charactor",
+        "details": [
+            "What kind of person do you think you are？",
+            "Just curious，what's your charactor like~"
+        ],
+        "nextLeiResp": ["0019"]
+    }, {
+        "id": "1005",
+        "brief": "Porfolio",
+        "details": [
+            "Can I have a look of your portfolios？"
+        ],
+        "nextLeiResp": ["0022"]
+    }, {
+        "id": "1008",
+        "brief": "Job",
+        "details": [
+            "You are so talented! What do you do for a living？"
+        ],
+        "nextLeiResp": ["0023"]
+    }, {
+        "id": "1006",
+        "brief": "About",
+        "details": [
+            "This page is interesting！",
+            "Your site is great~"
+        ],
+        "nextLeiResp": ["0026", "0027"]
+    }]
+}

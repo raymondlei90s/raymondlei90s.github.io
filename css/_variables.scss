@@ -1,0 +1,38 @@
+$color-primary: #2390d3;
+$color-primary-light:    lighten($color-primary, 10%);
+$color-primary-lighter:  lighten($color-primary, 40%);
+
+$color-gray:             #666;
+$color-light:            #bbb;
+$color-lighter:          #ddd;
+$color-lightest:         #f3f3f3;
+
+$color-text:             $color-gray;
+$color-text-light:       #888;
+$color-text-unimportant: $color-light;
+
+$color-border:           $color-lighter;
+$color-border-light:     $color-lightest;
+
+$color-mask:             rgba(0, 0, 0, 0.5);
+
+$mobile-width: 360px;
+$mobile-head-height: 45px;
+$mobile-foot-height: 55px;
+
+$msg-radius: 20px;
+$msg-animation-duration: .4s;
+
+$prompt-animation-duration: 0.3s;
+
+$distance-basic: 15px;
+$distance-lg: 20px;
+$distance-sm: 12px;
+$distance-h: 18px;
+$distance-inline: 5px;
+
+$radius-lg: $distance-lg;
+
+$font-size-basic: 14px;
+$font-size-sm: 13px;
+$font-size-lg: 15px;
